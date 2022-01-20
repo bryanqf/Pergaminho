@@ -1,0 +1,66 @@
+:root{
+    font-family: 'Rock Salt', cursive;
+}
+.app{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+   
+}
+.app__listaDeTarefas{
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.titulo{
+    color: rgba(37, 36, 36, 0.74);
+    margin-bottom: 15px;
+}
+
+.formulario{
+    justify-content: center;
+    display: flex;
+    
+
+}
+.formulario__input{
+    width: 70%;
+    border-radius: 5px;
+    font-family: 'Rock Salt', cursive;
+}  
+.formulario__botao{
+    width: 30%; 
+}
+li{
+    color: rgba(0, 0, 0, 0.568);
+   
+}
+.done{
+    text-decoration: line-through;
+
+}
+hr{
+    border-color: rgba(0, 0, 0, 0.199);
+}
+
+.task{
+    margin: 10px;
+}
+button{
+    font-family: 'Rock Salt', cursive;
+    color: rgba(0, 0, 0, 0.527);
+    border-radius: 5px;
+    background: url(/Imagens/Botao.jfif);
+   
+}
+div{
+    height: 100%;
+    size: contain;
+}
